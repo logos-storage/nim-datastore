@@ -6,7 +6,7 @@ author        = "Status Research & Development GmbH"
 description   = "Simple, unified API for multiple data stores"
 license       = "Apache License 2.0 or MIT"
 
-requires "nim >= 2.2.12",
+requires "nim >= 2.0.14",
          "asynctest >= 0.5.2 & < 0.6.0",
          "chronos >= 4.0.4 & < 5.0.0",
          "questionable >= 0.10.15 & < 0.11.0",
