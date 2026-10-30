@@ -24,7 +24,7 @@ jobs:
             os: windows,
             shell: msys2
           }
-        nim: [2.2.4, 2.2.12, 2.4.0]
+        nim: [2.2.12, 2.4.0]
     name: ${{ matrix.platform.icon }} ${{ matrix.platform.label }} - Nim v${{ matrix.nim }}
     runs-on: ${{ matrix.platform.os }}-latest
     steps:
